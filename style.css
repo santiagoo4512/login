@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    background-color: blanchedalmond;
+}
+/* contenedor cabecera */
+.container__header{
+    background-image: url(./img/paisaje.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: antiquewhite;
+}
+.container__header--nav{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 8rem;
+    margin: auto 10%;
+}
+.logo{
+    height: 7rem;
+    border: .3rem solid yellow;
+    border-radius: 50%;
+}
+.nav ul{
+display: flex;
+flex-direction: row;
+font-size: 2rem;
+list-style: none;
+}
+.nav ul a{
+    margin: .8rem;
+    padding: .8rem;
+    text-decoration: none;
+    color: antiquewhite;
+}
+.nav ul a:hover{
+    background-color: rgb(90, 95, 105);
+}
+    /* banner */
+.container__header--banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.container__header--banner h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.container__header--banner p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 3rem;
+}
+.Social{
+    margin-top: 1.5rem;
+    height: 6rem;
+}
+.Social span{
+    margin: 1.5rem;
+}
+/* contenedor de proyectos */
+.container__main{
+background-color: black;
+height: 100vh;
+padding: 10% auto;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.container__main h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.container__main p{
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 300;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+figure{
+    font-size: 2rem;
+    text-align: center;
+}
+figure img{
+    height: 30rem;
+}
+/* contenedor footer */
+.container__footer{
+    background-color: black;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container__footer h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.container__footer p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.container__footer span{
+    margin: .5rem;
+}
+hr{
+    width: 10%;
+    border: .2rem solid cornflowerblue;
+}
